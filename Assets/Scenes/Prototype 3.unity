@@ -421,6 +421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d5eb8e9abfe86b4e8e7b3fab5df80fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  jumpForce: 10
+  gravityModifier: 1
+  isOnGround: 1
 --- !u!65 &810164043
 BoxCollider:
   m_ObjectHideFlags: 0
